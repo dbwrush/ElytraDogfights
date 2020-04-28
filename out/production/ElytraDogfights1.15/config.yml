@@ -1,0 +1,33 @@
+#Elytra Dogfights created by DavidTheStarman with help from the talented Math0424
+
+#worldname
+world: world
+
+#Timer Settings
+ffaTime: 300
+teamTime: 300
+
+#Free For All starting coordinates
+ffax: 246
+ffay: 91
+ffaz: 185
+
+#Teams starting coordinates
+redx: 246
+redy: 82
+redz: 168
+
+bluex: 246
+bluey: 82
+bluez: 201
+
+#JumpPad Settings
+jumpPadType: SLIME_BLOCK
+jumpPadStrength: 4
+
+#AimAssist Settings
+useAimAssist: false
+aimAssistStrength: 0.5
+aimAssistTolerance: 20
+useQuickFire: false
+autoFireArrowSpeed: 3

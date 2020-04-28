@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ElytraDogfights1.15:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c977f35-4927-4c4a-96a8-54088d01652f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ajJgY2gKLdg4rZrVH8rGJ9WYXQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.18945312" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c977f35-4927-4c4a-96a8-54088d01652f" name="Default Changelist" comment="" />
+      <created>1587243180161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587243180161</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587331465342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587331465342" />
+    <state x="519" y="246" key="FileChooserDialogImpl" timestamp="1587258968920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="519" y="246" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587258968920" />
+    <state x="2266" y="233" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587243321812" />
+    <state x="180" y="70" key="SettingsEditor" timestamp="1587259812278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="180" y="70" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587259812278" />
+    <state x="2040" y="66" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587243333404" />
+    <state x="1920" y="0" width="1296" height="991" key="dock-window-1" timestamp="1587330474684">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state x="1920" y="0" width="1296" height="991" key="dock-window-1/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587330474684" />
+    <state x="1920" y="0" width="1296" height="1028" key="dock-window-2" timestamp="1587332712048">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state x="1920" y="0" width="1296" height="1028" key="dock-window-2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587332712048" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587842637405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587842637405" />
+  </component>
+</project>

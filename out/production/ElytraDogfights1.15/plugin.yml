@@ -1,0 +1,19 @@
+main: me.davidthestarman.elytraDogfights.Main
+name: ElytraDogfights
+description: Setup and run the Elytra Dogfight minigame by DavidTheStarman
+version: 1.5.1
+author: DavidTheStarman
+api-version: 1.15
+commands:
+  FFAStartGame:
+    description: Starts an Elytra Dogfights Free For All game
+    usage: /FFAStartGame
+  TeamsStartGame:
+    description: Starts an Elytra Dogfights Teams game
+    usage: /TeamsStartGame
+  Leave:
+    description: Exits an Elytra Dogfights game.
+    usage: /Leave
+  ToggleGameIsRunning:
+    description: Toggles the variable gameIsRunning, used for debugging.
+    usage: /ToggleGameIsRunning
