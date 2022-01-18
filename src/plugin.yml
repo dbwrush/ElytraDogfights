@@ -1,4 +1,4 @@
-main: me.sudologic.elytraDogfights.Main
+main: me.sudologic.elytradogfights.Main
 name: ElytraDogfights
 description: Setup and run the ElytraDogfights minigame by sudologic
 version: 1.5.1
