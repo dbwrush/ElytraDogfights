@@ -4,13 +4,13 @@
 world: world
 
 #Timer Settings
-ffaTime: 300
+soloTime: 300
 teamTime: 300
 
 #Free For All starting coordinates
-ffax: 246
-ffay: 91
-ffaz: 185
+solox: 246
+soloy: 91
+soloz: 185
 
 #Teams starting coordinates
 redx: 246

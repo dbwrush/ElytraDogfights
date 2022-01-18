@@ -6,7 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c977f35-4927-4c4a-96a8-54088d01652f" name="Default Changelist" comment="Fixed api-version">
+    <list default="true" id="3c977f35-4927-4c4a-96a8-54088d01652f" name="Default Changelist" comment="Increased version number because I can.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandFFAStartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandSoloStartGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandLeave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/inventory/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/inventory/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GamemodeAnnouncement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GamemodeAnnouncement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GameplayTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GameplayTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/OnPlayerLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/OnPlayerLeave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642537880831</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed main class location">
+      <created>1642537934783</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642537934783</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Increased version number because I can.">
+      <created>1642538016389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642538016389</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +113,8 @@
     <MESSAGE value="Changed package names to reflect my username change." />
     <MESSAGE value="Updated plugin.yml" />
     <MESSAGE value="Fixed api-version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed api-version" />
+    <MESSAGE value="Fixed main class location" />
+    <MESSAGE value="Increased version number because I can." />
+    <option name="LAST_COMMIT_MESSAGE" value="Increased version number because I can." />
   </component>
 </project>

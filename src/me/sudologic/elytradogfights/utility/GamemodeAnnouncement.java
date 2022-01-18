@@ -16,7 +16,7 @@ public class GamemodeAnnouncement {
         if (main.TeamsMode == true) {
             main.scoreboard().getTeam("Game Mode: ").setSuffix("Teams");
         } else {
-            main.scoreboard().getTeam("Game Mode: ").setSuffix("Free For All");
+            main.scoreboard().getTeam("Game Mode: ").setSuffix("Solo");
         }
         main.scoreboard().getObjective("timer").getScore("Game Mode: ").setScore(3);
         for (Player p : main.world.getPlayers()) {

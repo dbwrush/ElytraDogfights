@@ -5,9 +5,9 @@ version: 1.5.3
 author: sudologic
 api-version: 1.18
 commands:
-  FFAStartGame:
-    description: Starts an ElytraDogfights Free For All game
-    usage: /FFAStartGame
+  SoloStartGame:
+    description: Starts an ElytraDogfights Solo game
+    usage: /SoloStartGame
   TeamsStartGame:
     description: Starts an ElytraDogfights Teams game
     usage: /TeamsStartGame

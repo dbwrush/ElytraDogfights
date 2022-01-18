@@ -55,8 +55,8 @@ public class GameplayTimer {
             if (main.scoreboard().getTeam("Blue Team").hasEntry(p.getName())) {
                 main.scoreboard().getTeam("Blue Team").removeEntry(p.getName());
             }
-            if (main.scoreboard().getTeam("FFA Team").hasEntry(p.getName())) {
-                main.scoreboard().getTeam("FFA Team").removeEntry(p.getName());
+            if (main.scoreboard().getTeam("Solo Team").hasEntry(p.getName())) {
+                main.scoreboard().getTeam("Solo Team").removeEntry(p.getName());
             }
             if (main.blueInGame.contains(p)) {
                 main.blueInGame.remove(p);

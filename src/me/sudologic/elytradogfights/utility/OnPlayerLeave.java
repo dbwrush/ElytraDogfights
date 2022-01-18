@@ -1,7 +1,7 @@
 package me.sudologic.elytradogfights.utility;
 
 import me.sudologic.elytradogfights.Main;
-import me.sudologic.elytradogfights.commands.CommandFFAStartGame;
+import me.sudologic.elytradogfights.commands.CommandSoloStartGame;
 import me.sudologic.elytradogfights.commands.CommandTeamsStartGame;
 import me.sudologic.elytradogfights.inventory.Inventory;
 import org.bukkit.Bukkit;
@@ -13,10 +13,9 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerChangedWorldEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
-import org.bukkit.scheduler.BukkitRunnable;
 
 public class OnPlayerLeave implements Listener {
-    static CommandFFAStartGame cmdFFA = new CommandFFAStartGame();
+    static CommandSoloStartGame cmdSolo = new CommandSoloStartGame();
     static CommandTeamsStartGame cmdTeams = new CommandTeamsStartGame();
 
     GameplayTimer timer = new GameplayTimer();
@@ -34,8 +33,8 @@ public class OnPlayerLeave implements Listener {
         p.setSwimming(false);
         if(main.inGame.contains(p)) {
             main.inGame.remove(p);
-            if(main.scoreboard().getTeam("FFA Team").hasEntry(p.getName())) {
-                main.scoreboard().getTeam("FFA Team").removeEntry(p.getName());
+            if(main.scoreboard().getTeam("Solo Team").hasEntry(p.getName())) {
+                main.scoreboard().getTeam("Solo Team").removeEntry(p.getName());
                 sendMessage(ChatColor.GOLD + p.getName() + ChatColor.GREEN + " has died!");
             } else if(main.scoreboard().getTeam("Blue Team").hasEntry(p.getName())) {
                 main.scoreboard().getTeam("Blue Team").removeEntry(p.getName());
@@ -56,8 +55,8 @@ public class OnPlayerLeave implements Listener {
         Player p = event.getPlayer();
         if(main.inGame.contains(p)) {
             main.inGame.remove(p);
-            if(main.scoreboard().getTeam("FFA Team").hasEntry(p.getName())) {
-                main.scoreboard().getTeam("FFA Team").removeEntry(p.getName());
+            if(main.scoreboard().getTeam("Solo Team").hasEntry(p.getName())) {
+                main.scoreboard().getTeam("Solo Team").removeEntry(p.getName());
                 sendMessage(ChatColor.GOLD + p.getName() + ChatColor.GREEN + " has left the match!");
             } else if(main.scoreboard().getTeam("Blue Team").hasEntry(p.getName())) {
                 main.scoreboard().getTeam("Blue Team").removeEntry(p.getName());
@@ -95,7 +94,7 @@ public class OnPlayerLeave implements Listener {
     public static void checkInGame() {
         if(!main.TeamsMode) {
             if(main.inGame.size() <= 1) {
-                cmdFFA.endGame();
+                cmdSolo.endGame();
             }
         } else {
             if(main.blueInGame.size() <= 0 || main.redInGame.size() <= 0) {

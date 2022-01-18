@@ -12,11 +12,11 @@ import org.bukkit.scoreboard.DisplaySlot;
 
 import java.util.logging.Level;
 
-public class CommandFFAStartGame implements CommandExecutor {
+public class CommandSoloStartGame implements CommandExecutor {
     Main main = Main.plugin;
     GameplayTimer timer = new GameplayTimer();
     Inventory inv = main.inventory;
-    int time = main.ffaTime;
+    int time = main.soloTime;
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
@@ -37,19 +37,19 @@ public class CommandFFAStartGame implements CommandExecutor {
         }
         if(main.world.getPlayers().size() <= 1) {
             sender.sendMessage(ChatColor.RED + "Not enough players!");
-            Bukkit.getLogger().log(Level.INFO, "[ElytraDogfights] Command /ffaStartGame recieved. Not enough players, cancelled.");
+            Bukkit.getLogger().log(Level.INFO, "[ElytraDogfights] Command /SoloStartGame recieved. Not enough players, cancelled.");
             for(Player p : main.world.getPlayers()) {
                 p.sendMessage("[ElytraDogfights] Could not start game, too few players.");
             }
             return false;
         }
         main.TeamsMode = false;
-        Location loc = new Location(main.world, main.ffax, main.ffay, main.ffaz);
+        Location loc = new Location(main.world, main.solox, main.soloy, main.soloz);
         timer.startTimer(time);
         for(Player p : main.world.getPlayers()) {
-            main.scoreboard().getTeam("FFA Team").addEntry(p.getName());
+            main.scoreboard().getTeam("Solo Team").addEntry(p.getName());
             p.setScoreboard((main.scoreboard()));
-            inv.giveInventory(p, "ffa");
+            inv.giveInventory(p, "solo");
             p.teleport(loc);
             main.inGame.add(p);
             p.setGameMode(GameMode.ADVENTURE);

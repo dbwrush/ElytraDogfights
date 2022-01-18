@@ -39,7 +39,7 @@ public class Inventory {
     private static ItemStack boots = new ItemStack(Material.LEATHER_BOOTS, 1);
     private static LeatherArmorMeta bootsMeta = (LeatherArmorMeta) boots.getItemMeta();
 
-    private static ItemStack[] ffaArmor = new ItemStack[4];
+    private static ItemStack[] soloArmor = new ItemStack[4];
     private static ItemStack[] redArmor = new ItemStack[4];
     private static ItemStack[] blueArmor = new ItemStack[4];
 
@@ -60,7 +60,7 @@ public class Inventory {
         rocketMeta.setPower(2);
         rocket.setItemMeta(rocketMeta);
 
-        armorSetup(Color.GRAY, ffaArmor);
+        armorSetup(Color.GRAY, soloArmor);
         armorSetup(Color.RED, redArmor);
         armorSetup(Color.BLUE, blueArmor);
     }
@@ -93,8 +93,8 @@ public class Inventory {
         player.getInventory().setItem(9, arrow);
         player.getInventory().setItemInOffHand(rocket);
         switch (team) {
-            case "ffa":
-                ((HumanEntity) player).getInventory().setArmorContents(ffaArmor);
+            case "solo":
+                ((HumanEntity) player).getInventory().setArmorContents(soloArmor);
                 break;
             case "red":
                 ((HumanEntity) player).getInventory().setArmorContents(redArmor);

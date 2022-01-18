@@ -1,6 +1,6 @@
 package me.sudologic.elytradogfights;
 
-import me.sudologic.elytradogfights.commands.CommandFFAStartGame;
+import me.sudologic.elytradogfights.commands.CommandSoloStartGame;
 import me.sudologic.elytradogfights.commands.CommandLeave;
 import me.sudologic.elytradogfights.commands.CommandTeamsStartGame;
 import me.sudologic.elytradogfights.commands.CommandToggleGameIsRunning;
@@ -32,9 +32,9 @@ public class Main extends JavaPlugin {
 
     //These vars will be filled with data from the config file
     public String worldName;
-    public int ffax;
-    public int ffay;
-    public int ffaz;
+    public int solox;
+    public int soloy;
+    public int soloz;
     public int redx;
     public int redy;
     public int redz;
@@ -43,7 +43,7 @@ public class Main extends JavaPlugin {
     public int bluez;
     public String jumpPadType;
     public int jumpPadStrength;
-    public int ffaTime;
+    public int soloTime;
     public int teamsTime;
     public boolean useAimAssist;
     public double aimAssistStrength;
@@ -90,7 +90,7 @@ public class Main extends JavaPlugin {
     }
 
     public void registerCommands() {
-        this.getCommand("FFAStartGame").setExecutor(new CommandFFAStartGame());
+        this.getCommand("SoloStartGame").setExecutor(new CommandSoloStartGame());
         this.getCommand("ToggleGameIsRunning").setExecutor(new CommandToggleGameIsRunning());
         this.getCommand("TeamsStartGame").setExecutor(new CommandTeamsStartGame());
         this.getCommand("Leave").setExecutor(new CommandLeave());
@@ -119,13 +119,13 @@ public class Main extends JavaPlugin {
         Team playerCountTeam = board.registerNewTeam("Players: ");
         Team gamemodeAnnounceTeam = board.registerNewTeam("Game Mode: ");
 
-        Team FFATeam = board.registerNewTeam("FFA Team");
+        Team SoloTeam = board.registerNewTeam("Solo Team");
         Team RedTeam = board.registerNewTeam("Red Team");
         Team BlueTeam = board.registerNewTeam("Blue Team");
 
         RedTeam.setAllowFriendlyFire(false);
         BlueTeam.setAllowFriendlyFire(false);
-        FFATeam.setColor(ChatColor.GRAY);
+        SoloTeam.setColor(ChatColor.GRAY);
         RedTeam.setColor(ChatColor.RED);
         BlueTeam.setColor(ChatColor.BLUE);
     }
@@ -157,9 +157,9 @@ public class Main extends JavaPlugin {
         FileConfiguration config = this.getConfig();
 
         worldName = config.getString("world");
-        ffax = config.getInt("ffax");
-        ffay = config.getInt("ffay");
-        ffaz = config.getInt("ffaz");
+        solox = config.getInt("solox");
+        soloy = config.getInt("soloy");
+        soloz = config.getInt("soloz");
         redx = config.getInt("redx");
         redy = config.getInt("redy");
         redz = config.getInt("redz");
@@ -168,7 +168,7 @@ public class Main extends JavaPlugin {
         bluez = config.getInt("bluez");
         jumpPadType = config.getString("jumpPadType");
         jumpPadStrength = config.getInt("jumpPadStrength");
-        ffaTime = config.getInt("ffaTime");
+        soloTime = config.getInt("soloTime");
         teamsTime = config.getInt("teamTime");
         useAimAssist = config.getBoolean("useAimAssist");
         aimAssistStrength = config.getDouble("aimAssistStrength");
