@@ -1,18 +1,18 @@
 main: me.sudologic.elytraDogfights.Main
 name: ElytraDogfights
-description: Setup and run the Elytra Dogfight minigame by DavidTheStarman
+description: Setup and run the ElytraDogfights minigame by sudologic
 version: 1.5.1
 author: sudologic
-api-version: 1.71
+api-version: 1.18.1
 commands:
   FFAStartGame:
-    description: Starts an Elytra Dogfights Free For All game
+    description: Starts an ElytraDogfights Free For All game
     usage: /FFAStartGame
   TeamsStartGame:
-    description: Starts an Elytra Dogfights Teams game
+    description: Starts an ElytraDogfights Teams game
     usage: /TeamsStartGame
   Leave:
-    description: Exits an Elytra Dogfights game.
+    description: Exits an ElytraDogfights game.
     usage: /Leave
   ToggleGameIsRunning:
     description: Toggles the variable gameIsRunning, used for debugging.

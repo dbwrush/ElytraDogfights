@@ -6,36 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c977f35-4927-4c4a-96a8-54088d01652f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ElytraDogfights_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spigot_1_17_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ElytraDogfights1_15_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/spigot_1_15_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3c977f35-4927-4c4a-96a8-54088d01652f" name="Default Changelist" comment="Changed package names to reflect my username change.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElytraDogfights1.15(Wtih Q Marks).zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElytraDogfights1.15.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ElytraDogfights.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/commands/CommandFFAStartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandFFAStartGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/commands/CommandLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandLeave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/commands/CommandTeamsStartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandTeamsStartGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/commands/CommandToggleGameIsRunning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandToggleGameIsRunning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/inventory/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/inventory/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/inventory/InventoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/inventory/InventoryManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/inventory/ThrownItemDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/inventory/ThrownItemDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/AimAssist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/AimAssist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/GamemodeAnnouncement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GamemodeAnnouncement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/GameplayTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GameplayTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/HungerManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/HungerManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/JumpPad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/JumpPad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/OnPlayerDamage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/OnPlayerDamage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/OnPlayerJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/OnPlayerJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/OnPlayerLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/OnPlayerLeave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/PlayerCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/PlayerCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/QuickFire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/QuickFire.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +51,14 @@
       <option name="presentableId" value="Default" />
       <updated>1587243180161</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed package names to reflect my username change.">
+      <created>1642537648251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642537648251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,5 +72,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed package names to reflect my username change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed package names to reflect my username change." />
   </component>
 </project>
