@@ -1,16 +1,14 @@
-package me.davidthestarman.elytraDogfights.commands;
+package me.sudologic.elytradogfights.commands;
 
-import me.davidthestarman.elytraDogfights.Main;
-import me.davidthestarman.elytraDogfights.inventory.Inventory;
-import me.davidthestarman.elytraDogfights.utility.OnPlayerLeave;
+import me.sudologic.elytradogfights.Main;
+import me.sudologic.elytradogfights.inventory.Inventory;
+import me.sudologic.elytradogfights.utility.OnPlayerLeave;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
-import java.util.logging.Level;
 
 public class CommandLeave implements CommandExecutor {
     Main main = Main.plugin;

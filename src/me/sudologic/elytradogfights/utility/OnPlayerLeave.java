@@ -1,9 +1,9 @@
-package me.davidthestarman.elytraDogfights.utility;
+package me.sudologic.elytradogfights.utility;
 
-import me.davidthestarman.elytraDogfights.Main;
-import me.davidthestarman.elytraDogfights.commands.CommandFFAStartGame;
-import me.davidthestarman.elytraDogfights.commands.CommandTeamsStartGame;
-import me.davidthestarman.elytraDogfights.inventory.Inventory;
+import me.sudologic.elytradogfights.Main;
+import me.sudologic.elytradogfights.commands.CommandFFAStartGame;
+import me.sudologic.elytradogfights.commands.CommandTeamsStartGame;
+import me.sudologic.elytradogfights.inventory.Inventory;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;

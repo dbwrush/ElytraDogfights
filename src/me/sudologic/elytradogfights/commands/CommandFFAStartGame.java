@@ -1,8 +1,8 @@
-package me.davidthestarman.elytraDogfights.commands;
+package me.sudologic.elytradogfights.commands;
 
-import me.davidthestarman.elytraDogfights.Main;
-import me.davidthestarman.elytraDogfights.inventory.Inventory;
-import me.davidthestarman.elytraDogfights.utility.GameplayTimer;
+import me.sudologic.elytradogfights.Main;
+import me.sudologic.elytradogfights.inventory.Inventory;
+import me.sudologic.elytradogfights.utility.GameplayTimer;
 import org.bukkit.*;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

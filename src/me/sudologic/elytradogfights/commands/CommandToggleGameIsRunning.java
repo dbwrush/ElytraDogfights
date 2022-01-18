@@ -1,6 +1,6 @@
-package me.davidthestarman.elytraDogfights.commands;
+package me.sudologic.elytradogfights.commands;
 
-import me.davidthestarman.elytraDogfights.Main;
+import me.sudologic.elytradogfights.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

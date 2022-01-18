@@ -1,9 +1,9 @@
-main: me.davidthestarman.elytraDogfights.Main
+main: me.sudologic.elytraDogfights.Main
 name: ElytraDogfights
 description: Setup and run the Elytra Dogfight minigame by DavidTheStarman
 version: 1.5.1
-author: DavidTheStarman
-api-version: 1.15
+author: sudologic
+api-version: 1.71
 commands:
   FFAStartGame:
     description: Starts an Elytra Dogfights Free For All game

@@ -1,6 +1,6 @@
-package me.davidthestarman.elytraDogfights.inventory;
+package me.sudologic.elytradogfights.inventory;
 
-import me.davidthestarman.elytraDogfights.Main;
+import me.sudologic.elytradogfights.Main;
 import org.bukkit.GameMode;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

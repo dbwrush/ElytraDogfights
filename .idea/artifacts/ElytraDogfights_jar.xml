@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ElytraDogfights:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ElytraDogfights_jar</output-path>
+    <root id="archive" name="ElytraDogfights.jar">
+      <element id="module-output" name="ElytraDogfights" />
+    </root>
+  </artifact>
+</component>

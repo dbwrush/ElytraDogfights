@@ -1,6 +1,6 @@
-package me.davidthestarman.elytraDogfights.utility;
+package me.sudologic.elytradogfights.utility;
 
-import me.davidthestarman.elytraDogfights.Main;
+import me.sudologic.elytradogfights.Main;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;

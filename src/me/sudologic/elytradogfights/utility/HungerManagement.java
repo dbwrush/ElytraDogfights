@@ -1,6 +1,6 @@
-package me.davidthestarman.elytraDogfights.utility;
+package me.sudologic.elytradogfights.utility;
 
-import me.davidthestarman.elytraDogfights.Main;
+import me.sudologic.elytradogfights.Main;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.FoodLevelChangeEvent;

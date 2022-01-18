@@ -2,11 +2,42 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ElytraDogfights1.15:jar" />
+      <artifact name="ElytraDogfights:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c977f35-4927-4c4a-96a8-54088d01652f" name="Default Changelist" comment="" />
+    <list default="true" id="3c977f35-4927-4c4a-96a8-54088d01652f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ElytraDogfights_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spigot_1_17_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ElytraDogfights1_15_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/spigot_1_15_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElytraDogfights1.15(Wtih Q Marks).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElytraDogfights1.15.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ElytraDogfights.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/commands/CommandFFAStartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandFFAStartGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/commands/CommandLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandLeave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/commands/CommandTeamsStartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandTeamsStartGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/commands/CommandToggleGameIsRunning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandToggleGameIsRunning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/inventory/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/inventory/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/inventory/InventoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/inventory/InventoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/inventory/ThrownItemDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/inventory/ThrownItemDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/AimAssist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/AimAssist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/GamemodeAnnouncement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GamemodeAnnouncement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/GameplayTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GameplayTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/HungerManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/HungerManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/JumpPad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/JumpPad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/OnPlayerDamage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/OnPlayerDamage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/OnPlayerJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/OnPlayerJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/OnPlayerLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/OnPlayerLeave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/PlayerCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/PlayerCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/davidthestarman/elytraDogfights/utility/QuickFire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/QuickFire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,20 +50,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ajJgY2gKLdg4rZrVH8rGJ9WYXQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.18945312" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -46,32 +81,16 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587331465342">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587331465342" />
-    <state x="519" y="246" key="FileChooserDialogImpl" timestamp="1587258968920">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="519" y="246" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587258968920" />
-    <state x="2266" y="233" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587243321812" />
-    <state x="180" y="70" key="SettingsEditor" timestamp="1587259812278">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="180" y="70" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587259812278" />
-    <state x="2040" y="66" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587243333404" />
-    <state x="1920" y="0" width="1296" height="991" key="dock-window-1" timestamp="1587330474684">
-      <screen x="1920" y="0" width="1280" height="984" />
-    </state>
-    <state x="1920" y="0" width="1296" height="991" key="dock-window-1/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587330474684" />
-    <state x="1920" y="0" width="1296" height="1028" key="dock-window-2" timestamp="1587332712048">
-      <screen x="1920" y="0" width="1280" height="984" />
-    </state>
-    <state x="1920" y="0" width="1296" height="1028" key="dock-window-2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587332712048" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587842637405">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1587842637405" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

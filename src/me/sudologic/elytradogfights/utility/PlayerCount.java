@@ -1,4 +1,4 @@
-package me.davidthestarman.elytraDogfights.utility;
+package me.sudologic.elytradogfights.utility;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -6,7 +6,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scoreboard.DisplaySlot;
 import org.bukkit.scoreboard.Scoreboard;
 
-import me.davidthestarman.elytraDogfights.Main;
+import me.sudologic.elytradogfights.Main;
 
 public class PlayerCount {
     Main main = Main.plugin;

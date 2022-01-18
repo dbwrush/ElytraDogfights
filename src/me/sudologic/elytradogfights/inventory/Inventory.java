@@ -1,4 +1,4 @@
-package me.davidthestarman.elytraDogfights.inventory;
+package me.sudologic.elytradogfights.inventory;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Color;

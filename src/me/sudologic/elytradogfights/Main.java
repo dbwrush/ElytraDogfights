@@ -1,13 +1,13 @@
-package me.davidthestarman.elytraDogfights;
+package me.sudologic.elytradogfights;
 
-import me.davidthestarman.elytraDogfights.commands.CommandFFAStartGame;
-import me.davidthestarman.elytraDogfights.commands.CommandLeave;
-import me.davidthestarman.elytraDogfights.commands.CommandTeamsStartGame;
-import me.davidthestarman.elytraDogfights.commands.CommandToggleGameIsRunning;
-import me.davidthestarman.elytraDogfights.inventory.Inventory;
-import me.davidthestarman.elytraDogfights.inventory.InventoryManager;
-import me.davidthestarman.elytraDogfights.inventory.ThrownItemDetector;
-import me.davidthestarman.elytraDogfights.utility.*;
+import me.sudologic.elytradogfights.commands.CommandFFAStartGame;
+import me.sudologic.elytradogfights.commands.CommandLeave;
+import me.sudologic.elytradogfights.commands.CommandTeamsStartGame;
+import me.sudologic.elytradogfights.commands.CommandToggleGameIsRunning;
+import me.sudologic.elytradogfights.inventory.Inventory;
+import me.sudologic.elytradogfights.inventory.InventoryManager;
+import me.sudologic.elytradogfights.inventory.ThrownItemDetector;
+import me.sudologic.elytradogfights.utility.*;
 import org.bukkit.*;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
