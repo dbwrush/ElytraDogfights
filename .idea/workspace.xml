@@ -6,17 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c977f35-4927-4c4a-96a8-54088d01652f" name="Default Changelist" comment="Increased version number because I can.">
+    <list default="true" id="3c977f35-4927-4c4a-96a8-54088d01652f" name="Default Changelist" comment="Increase version number to 1.5.4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandFFAStartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandSoloStartGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/commands/CommandLeave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/inventory/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/inventory/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GamemodeAnnouncement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GamemodeAnnouncement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GameplayTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/GameplayTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/OnPlayerLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/sudologic/elytradogfights/utility/OnPlayerLeave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1ajJgY2gKLdg4rZrVH8rGJ9WYXQ" />
   <component name="ProjectViewState">
@@ -94,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642538016389</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Renamed FreeForAll to Solo">
+      <created>1642547359346</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642547359346</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Increase version number to 1.5.4">
+      <created>1642547400289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642547400289</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +129,8 @@
     <MESSAGE value="Fixed api-version" />
     <MESSAGE value="Fixed main class location" />
     <MESSAGE value="Increased version number because I can." />
-    <option name="LAST_COMMIT_MESSAGE" value="Increased version number because I can." />
+    <MESSAGE value="Renamed FreeForAll to Solo" />
+    <MESSAGE value="Increase version number to 1.5.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Increase version number to 1.5.4" />
   </component>
 </project>

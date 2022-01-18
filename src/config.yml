@@ -7,7 +7,7 @@ world: world
 soloTime: 300
 teamTime: 300
 
-#Free For All starting coordinates
+#Solo starting coordinates
 solox: 246
 soloy: 91
 soloz: 185
